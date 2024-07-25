@@ -50,14 +50,4 @@ To run this project locally:
    yarn start
    ```
 
-## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ABDULBASIT1998/Business-website-using-React/issues) if you want to contribute.
-
-## License
-
-[Add your license information here]
-
-## Contact
-
-[Add your contact information here]
