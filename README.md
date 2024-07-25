@@ -9,28 +9,20 @@ G. Nadaf Aluminium's website showcases the company's journey, products, and serv
 ## Screenshots
 
 ### Our Journey
-![Our Journey](path_to_our_journey_screenshot.png)
+![Our Journey](./screenshots/our_journey.png)
 This section details the company's history, starting from its foundation in 1974.
 
 ### Aluminium Windows
-![Aluminium Windows](path_to_aluminium_windows_screenshot.png)
+![Aluminium Windows](./screenshots/aluminium_windows.png)
 Showcases the company's premium range of aluminium windows.
 
 ### Foldable Mosquito Net
-![Foldable Mosquito Net](path_to_mosquito_net_screenshot.png)
+![Foldable Mosquito Net](./screenshots/foldable_mosquito_net.png)
 Introduces the company's innovative foldable mosquito net product.
 
 ### Home Page
-![Home Page](path_to_home_page_screenshot.png)
+![Home Page](./screenshots/home_page.png)
 The main landing page featuring various aluminum window and door options.
-
-### Home Page
-![Home Page](path_to_home_page_screenshot.png)
-The main landing page featuring various aluminum window and door options.
-### Home Page
-![Home Page](path_to_home_page_screenshot.png)
-The main landing page featuring various aluminum window and door options.
-
 
 ## Technologies Used
 
@@ -62,4 +54,10 @@ To run this project locally:
 
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ABDULBASIT1998/Business-website-using-React/issues) if you want to contribute.
 
+## License
 
+[Add your license information here]
+
+## Contact
+
+[Add your contact information here]
