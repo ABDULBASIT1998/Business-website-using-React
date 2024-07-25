@@ -24,6 +24,14 @@ Introduces the company's innovative foldable mosquito net product.
 ![Home Page](path_to_home_page_screenshot.png)
 The main landing page featuring various aluminum window and door options.
 
+### Home Page
+![Home Page](path_to_home_page_screenshot.png)
+The main landing page featuring various aluminum window and door options.
+### Home Page
+![Home Page](path_to_home_page_screenshot.png)
+The main landing page featuring various aluminum window and door options.
+
+
 ## Technologies Used
 
 - React.js
@@ -54,10 +62,4 @@ To run this project locally:
 
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ABDULBASIT1998/Business-website-using-React/issues) if you want to contribute.
 
-## License
 
-[Add your license information here]
-
-## Contact
-
-[Add your contact information here]
