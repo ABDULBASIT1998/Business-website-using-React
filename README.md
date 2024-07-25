@@ -12,14 +12,11 @@ G. Nadaf Aluminium's website showcases the company's journey, products, and serv
 ![Home Page](./screenshots/Home.jpg)
 ![Footer](./screenshots/footer.jpg)
 ![Slider](./screenshots/slider.jpg)
-
-
 The main landing page featuring various aluminum window and door options.
 
 ### About Page
 ![Our Journey](./screenshots/about.jpg)
-This section details the company's history, starting from its foundation in 1974.
-
+This section details the company's history.
 ### Product Page
 ![Product Page](./screenshots/products.jpg)
 Showcases the company's premium range of aluminium windows.
@@ -31,8 +28,7 @@ Contact page with google maps and contact details.
 
 ### Trending Page
 ![Foldable Mosquito Net](./screenshots/Trending.jpg)
-![Foldable Mosquito Net](./screenshots/Trending.jpg)
-Introduces the company's innovative foldable mosquito net product.
+Introduces the company's innovative products on automatic slider, will land you the gallery.
 
 
 
