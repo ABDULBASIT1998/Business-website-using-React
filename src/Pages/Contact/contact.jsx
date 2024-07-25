@@ -23,17 +23,17 @@ const Contact = () => {
                     <div className="detail">
                         <span>
                             <BiMapPin className="icon"/>
-                            <Link to="https://maps.app.goo.gl/Tc1CsYyi8x16A3RM6">Timber Area, Miraj-416410</Link>
+                            <Link to="https://maps.app.goo.gl/">Timber Area, Miraj-416410</Link>
                         </span>
 
                         <span>
                             <BiPhone className="icon"/>
-                            <a href="tel:9921270549">+91-9921270549</a>
+                            <a href="tel:000000000">+91-000000000</a>
                         </span>
 
                         <span>
                             <BiMailSend className="icon"/>
-                            <a href="mailto:g.nadafaluminium@gmail.com">g.nadafaluminium@gmail.com</a>
+                            <a href="mailto:1232um@gmail.com">g123um@gmail.com</a>
                         </span>
                     </div>
                     <div className="map">
