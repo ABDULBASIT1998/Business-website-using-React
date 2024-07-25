@@ -1,0 +1,49 @@
+.trend-content{
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0rem;
+  font-size: 2.5rem;
+  text-align: center; /* Center align the text */
+  background-color: #004aad;
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-position: center; /* Center the background image */
+  color: white; /* Set text color to contrast with the background image */
+  padding: 20px; /* Add some padding to improve readability */
+}
+
+
+.trend-container{
+    width: 100%;
+}
+
+
+
+.domal-container {
+  padding-bottom: 2rem;
+
+}
+
+.domal-container span{
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: blueviolet;
+
+}
+
+.door-container{
+  padding-bottom: 2rem;
+
+}
+
+.glass-container{
+  padding-bottom: 2rem;
+
+}
+

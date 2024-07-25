@@ -1,0 +1,50 @@
+.service-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.s-title {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center; /* Center align the text */
+    background-color: #004aad;
+    background-size: cover; /* Ensu re the background image covers the entire area */
+    background-position: center; /* Center the background image */
+    color: white; /* Set text color to contrast with the background image */
+    padding: 20px; /* Add some padding to improve readability */
+}
+  
+
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 250px;
+    margin: 20px;
+    padding: 50px;
+    gap: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.service p {
+    font-size: 0.9em;
+    color: #666;
+}

@@ -1,0 +1,184 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.text-section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.text1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #221f1f;
+    margin-bottom: 1rem;
+    max-height: auto; /* Two lines of text with 2.4rem line height */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    color: #004AAD;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text2 span:first-child {
+    font-weight: 700;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    /* Bold font weight for "Ready to Upgrade?" */
+}
+
+.text2 span:last-child {
+    font-size: 1.4rem; /* Adjust font size as needed */
+}
+
+.image-section {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+.heroImg {
+    width: 100%; /* Ensure the image takes up full width */
+    max-width: none; /* Disable max-width to prevent resizing */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center; /* Align image properly */
+    transition: transform 0.3s ease; /* Add smooth transform transition */
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.whatsappLink,
+.arrowRightLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #004AAD;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+.whatsappLink{
+    color: #fff;
+    background-color: #25d366;
+}
+
+
+
+.arrowRightLink:hover {
+    background-color: #003366; /* Darken background color on hover */
+}
+.whatsappLink:hover{
+    background-color: #28633d; /* Darken background color on hover */
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+}
+
+.stat span {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.stat span:last-child {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+    .heroImg {
+        margin-top: 4rem;
+    }
+
+    .text1 {
+        max-height: none; /* Allow full display of text on smaller screens */
+        -webkit-line-clamp: unset;
+    }
+
+    .image-section {
+        order: -1; /* Move image section above text section on mobile */
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text1 {
+        display: none;
+
+    }
+    .heroImg {
+        margin-top: 0.5rem;
+    }
+
+    .hero {
+        flex-direction: column-reverse /* Move image section above text section on mobile */
+    }
+    .links {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .whatsappLink,
+    .arrowRightLink {
+        width: fit-content;
+    }
+
+    
+
+
+
+}

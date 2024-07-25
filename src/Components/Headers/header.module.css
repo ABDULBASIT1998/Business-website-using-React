@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@500&display=swap');
+
+.container {
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.logoname {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logoname > span:first-child {
+    font-weight:600;
+    font-size: 70%;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.logoname > span:nth-child(2) {
+    font-weight: 500;
+    font-size: 60%;
+    letter-spacing: 2px;
+}
+
+.navigator{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+nav .hamburger {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    align-items: center;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+nav .cross{
+    display: none;
+}
+
+
+.menu{
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menu :hover {
+    transform: translateY(-3px);
+    color: #004aad;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+
+
+.social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center; /* Add this line */
+    font-size: 1.3rem;
+    background-color: #004aad;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.socialIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+.social :hover {
+    transform: translateY(-3px);
+}
+
+@media only screen and (max-width: 992px) {
+    
+    
+    .container.show {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        
+    }
+    .container {
+        padding-top: 3vw;
+        padding-bottom: 0;
+    }
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }   
+    
+    .logo.show {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }    
+
+    
+    .logo img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .logoname {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+        align-items: center;
+    }
+
+    .logoname > span:first-child {
+        font-weight: 600;
+        font-family: 'Lexend Zetta', sans-serif;
+        font-size: 1.2;
+    }
+
+    .logoname > span:nth-child(2) {
+        font-weight: 500;
+        font-size: 1;
+        letter-spacing: 2px;
+    }
+
+    nav .menu {
+        display: none;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    nav .menu.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    nav .menuIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+
+
+    .social {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    nav .social.show {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.5rem;
+    }
+
+
+
+    nav .navigator{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 2rem;
+        width: 5%;
+    }
+    nav .navigator.show{
+        
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+
+    nav .hamburger {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    nav .hamburger.show {
+        display: none;
+        flex-direction: column;
+
+    }
+    nav .cross.show {
+        display: flex;
+        font-size: 2.5rem;
+        align-items: center;
+        justify-content: center;
+
+    }
+    nav .cross{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    nav .cross :hover {
+        transform: translateY(-3px);
+        color: #004aad;
+    }
+
+
+}
+
+
