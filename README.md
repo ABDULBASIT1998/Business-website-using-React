@@ -1,67 +1,63 @@
-# Getting Started with Create React App
+# G. Nadaf Aluminium - Business Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based website for G. Nadaf Aluminium, a family-owned business specializing in high-quality aluminum windows and doors.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+G. Nadaf Aluminium's website showcases the company's journey, products, and services. It features a modern, responsive design with sections highlighting the company's history, product offerings, and contact information.
 
-### `yarn start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Our Journey
+![Our Journey](path_to_our_journey_screenshot.png)
+This section details the company's history, starting from its foundation in 1974.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Aluminium Windows
+![Aluminium Windows](path_to_aluminium_windows_screenshot.png)
+Showcases the company's premium range of aluminium windows.
 
-### `yarn test`
+### Foldable Mosquito Net
+![Foldable Mosquito Net](path_to_mosquito_net_screenshot.png)
+Introduces the company's innovative foldable mosquito net product.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home Page
+![Home Page](path_to_home_page_screenshot.png)
+The main landing page featuring various aluminum window and door options.
 
-### `yarn build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- Yarn package manager
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project locally:
 
-### `yarn eject`
+1. Clone the repository:
+   ```
+   git clone https://github.com/ABDULBASIT1998/Business-website-using-React.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd Business-website-using-React
+   ```
+3. Install dependencies:
+   ```
+   yarn install
+   ```
+4. Start the development server:
+   ```
+   yarn start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/ABDULBASIT1998/Business-website-using-React/issues) if you want to contribute.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Add your license information here]
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Add your contact information here]
