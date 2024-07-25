@@ -52,19 +52,19 @@ const Header = () => {
 
           <div className={css.socialc}>
             <div className={isMenuOpen ? `${css.social} ${css.show}` : `${css.social}`}>
-              <Link to="https://www.facebook.com/profile.php?id=100086487851546">
+              <Link to="https://www.facebook.com/">
                 <BiLogoFacebookSquare className={css.socialIcon} />
               </Link>
-              <Link to="https://www.instagram.com/gnadafaluminium/">
+              <Link to="https://www.instagram.com/">
                 <BiLogoInstagramAlt className={css.socialIcon} />
               </Link>
-              <Link to="https://www.youtube.com/@g.nadafaluminium">
+              <Link to="https://www.youtube.com/">
                 <BiLogoYoutube className={css.socialIcon} />
               </Link>
-              <Link to="https://wa.me/9921270549">
+              <Link to="https://wa.me/0000000">
                 <BiLogoWhatsapp className={css.socialIcon} />
               </Link>
-              <Link to="tel:9921270549">
+              <Link to="tel:00000000000">
                 <BiPhone className={css.socialIcon} />
               </Link>
             </div>
