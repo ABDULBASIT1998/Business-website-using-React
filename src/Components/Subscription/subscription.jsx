@@ -16,7 +16,7 @@ const SubscriptionForm = () => {
 
     const form = e.target;
     const scriptURL =
-      'https://script.google.com/macros/s/AKfycbyDCDbPn2pqcAPZPkz9SnG5dstSIAbC1pMiGNX7eviqIK9OM5jK71KwxV5XgB7FKiWZTg/exec';
+      'https://script.google.com/c';
 
     try {
       const requestBody = new FormData(form);
