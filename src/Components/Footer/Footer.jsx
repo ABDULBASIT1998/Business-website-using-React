@@ -36,12 +36,12 @@ const Footer = () => {
 
                         <span className={css.pngLine}>
                             <BiPhone className={css.icon}/>
-                            <a href="tel:9921270549">+91-9921270549</a>
+                            <a href="tel:00000000">+91-000000</a>
                         </span>
 
                         <span className={css.pngLine}>
                             <BiMailSend className={css.icon}/>
-                            <a href="mailto:g.nadafaluminium@gmail.com">g.nadafaluminium@gmail.com</a>
+                            <a href="mailto:g123nium@gmail.com">g123uminium@gmail.com</a>
                         </span>
                     </div>
                 </div>
